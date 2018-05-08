@@ -27,8 +27,6 @@ matrix:
     - rvm: ruby-head
     - env: RAILS_VERSION="edge"
     - rvm: jruby-9.1.17.0
-      env: RAILS_VERSION="~> 5.1.0"
-    - rvm: jruby-9.1.17.0
       env: RAILS_VERSION="~> 5.2.0"
   fast_finish: true
   # legacy testing
